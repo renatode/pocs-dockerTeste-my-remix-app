@@ -1,0 +1,10 @@
+src/.cache
+src/__tests__
+src/build
+src/coverage
+src/node_modules
+src/public/build
+src/.env
+src/npm-debug.log
+src/*-lock.json
+.git
