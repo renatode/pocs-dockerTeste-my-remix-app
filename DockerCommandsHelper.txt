@@ -1,0 +1,4 @@
+docker build -f./Dockerfile . -t my-remix-app/run
+docker run -p 3000:3000 -d my-remix-app/run
+docker ps
+docker exec -it <container id> /bin/sh
